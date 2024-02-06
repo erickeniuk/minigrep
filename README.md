@@ -1,6 +1,14 @@
 # minigrep
 rust practice from The Book
 
+#### To Clone
+---
+
+```
+git clone https://github.com/erickeniuk/minigrep.git
+```
+
+
 #### Simple `cargo` Commands
 ---
 
