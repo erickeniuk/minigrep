@@ -28,7 +28,7 @@ cargo test
 
 To use `minigrep`, you can run it a few ways.
 
-Basic `cargo run`:
+Basic `cargo run`, including the `--`:
 ```
 cargo run -- <your_search_string> file_to_search.txt
 ```
