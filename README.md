@@ -32,3 +32,8 @@ Basic `cargo run`, including the `--`:
 ```
 cargo run -- <your_search_string> file_to_search.txt
 ```
+
+#### GitHub Workflows
+---
+
+The project will automatically build and test on push.
