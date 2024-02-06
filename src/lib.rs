@@ -29,7 +29,18 @@ pub fn run(config: Config) -> Result<(), Box<dyn Error>> {
 }
 
 pub fn search<'a>(query: &str, contents: &'a str) -> Vec<&'a str> {
-    vec![]
+    let mut results = Vec::new();
+    for line in contents.lines() {
+
+        if !line.contains(query) {
+            println!("Query not found in line: {}", line);
+        } else {
+            println!("Found query '{}' in line: {}", query,line);
+            results.push(line);
+        }
+    }
+    dbg!(&results);
+    results
 }
 
 #[cfg(test)]
