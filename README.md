@@ -36,7 +36,7 @@ cargo run -- <your_search_string> file_to_search.txt
 To search _insensitive_ to case:
 
 ```
-IGNORE_CASE=1 cargo run -- nobody poem.txt
+IGNORE_CASE=1 cargo run -- <your_search_string> file_to_search.txt
 ```
 
 #### GitHub Workflows
